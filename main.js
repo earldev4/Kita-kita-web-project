@@ -6,8 +6,8 @@ let phone = document.getElementById('phone')
 
 window.addEventListener('scroll', () =>{
     let value = window.scrollY;
-    let maxScrollValue = 500;
-    let opacity = Math.max(1 - value / maxScrollValue, 0);
+    let max_scrollvalue = 500;
+    let opacity = Math.max(1 - value / max_scrollvalue, 0);
 
     pict1.style.top = value * 0.5 + 'px';
     pict1.style.right = value * -0.5 + 'px';
@@ -22,8 +22,7 @@ window.addEventListener('scroll', () =>{
     pict4.style.top = value * -0.5 + 'px';
     pict4.style.left = value * -0.5 + 'px';
     pict4.style.opacity = opacity; 
-
-    if (Math.max(value) == 1400){
-        
-    }
+    
+    
+    console.log(value)
 });

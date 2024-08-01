@@ -115,7 +115,7 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: gainsboro;
-    height: 2400px;
+    height: 2600px;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     position: relative;
@@ -143,13 +143,14 @@ nav{
     height: 400px;
     margin-top:1200px;
 }
+#phones-container{
+    transform: translate(0px, -1050px) scale(2.8);
+    display: flex;
+    z-index: 2;
+}
 #phone{
     width: 300px;
-    margin-left: 400px;
-    position: absolute;
-    margin-top: 350px;
-    transform: scale(2);
-    z-index: 2;
+    transition: all 0.3s ease;
 }
 #kita-icon2{
     height: 3.125rem;
@@ -159,7 +160,6 @@ nav{
 #phone-box2{
     padding: 30px 20px;
     width: 400px;
-    margin-left: 400px;
 }
 .phone-text{
     font-size: 40px;
