@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 nav{
     background: hsl(0 0% 100% / 0.75);
     position: sticky;
@@ -5,7 +8,7 @@ nav{
     backdrop-filter: blur(10px);
     border-bottom: 1px solid hsl(0 0% 50%);
     height: 82px;
-    z-index: 2;
+    z-index: 3;
 }
 .nav-content{
     display: flex;
@@ -38,13 +41,14 @@ nav{
 }
 #header{
     background-color: gainsboro;
-    height: 1000px;
+    height: 700px;
     position: relative;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
+    z-index: 2;
 }
 #header-text{
-    font-size: 100px;
+    font-size: 150px;
     position: absolute;
     top: 40%;
     text-align: center;
@@ -53,39 +57,57 @@ nav{
 .header-pict{
     position: absolute;
     width: 300px;
+    box-shadow: 0px 10px  20px grey;
 }
 #h-pict1{
     top: 30px;
-    left: 1200px;
+    right: -30px;
     border-radius: 10px;
     width: 400px;
-    transform: rotate(10deg)
+    transform: rotate(10deg);
+    opacity: 1;
 }
 #h-pict2{
     top: 600px;
     left: 30px;
     border-radius: 10px;
     width: 450px;
-    transform: rotate(-5deg)
+    transform: rotate(-5deg);
+    opacity: 1;
 }
 #h-pict3{
     top: 700px;
     right: -20px;
     border-radius: 10px;
-    width: 200px;
-    transform: rotate(5deg)
+    width: 300px;
+    transform: rotate(5deg);
+    opacity: 1;
 }
 #h-pict4{
     top: 50px;
     left: -30px;
     border-radius: 10px;
-    width: 250px;
-    transform: rotate(-3deg)
+    width: 450px; 
+    transform: rotate(-3deg);
+    opacity: 1;
 }
-.pict1-leaving{
-    transition-duration: 2s;
-    
+.section1{
+    background-color: gainsboro;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
 }
-.pict1-leaving:hover{
-    transform: translate(10px, 10px);
+#section1-text{
+    text-align: center;
+    font-size: 80px;
+    width: 800px;
+}
+#kykny{
+    color: gray;
+    font-size: 30px;
+    display: inline;
 }
