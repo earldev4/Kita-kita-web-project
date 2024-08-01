@@ -2,6 +2,7 @@ let pict1 = document.getElementById('h-pict1')
 let pict2 = document.getElementById('h-pict2')
 let pict3 = document.getElementById('h-pict3')
 let pict4 = document.getElementById('h-pict4')
+let phone = document.getElementById('phone')
 
 window.addEventListener('scroll', () =>{
     let value = window.scrollY;
@@ -21,4 +22,8 @@ window.addEventListener('scroll', () =>{
     pict4.style.top = value * -0.5 + 'px';
     pict4.style.left = value * -0.5 + 'px';
     pict4.style.opacity = opacity; 
+
+    if (Math.max(value) == 1400){
+        
+    }
 });
