@@ -8,7 +8,7 @@ nav{
     top: 0;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid hsl(0 0% 50%);
-    height: 82px;
+    height: 5.125rem;
     z-index: 3;
 }
 .nav-content{
@@ -27,7 +27,7 @@ nav{
     width: 3.125rem;
 }
 #kita-title{
-    font-size: 25px;
+    font-size: 1.563rem;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
 }
@@ -38,18 +38,18 @@ nav{
     text-decoration: none;
     background: linear-gradient(90deg, rgb(66, 135, 245), rgb(46, 87, 232));
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 #header{
     background-color: gainsboro;
-    height: 700px;
+    height: 43.75rem;
     position: relative;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     z-index: 2;
 }
 #header-text{
-    font-size: 150px;
+    font-size: 9.375rem;
     position: absolute;
     top: 40%;
     text-align: center;
@@ -57,16 +57,16 @@ nav{
 }
 .header-pict{
     position: absolute;
-    width: 300px;
+    width: 18.75rem;
     box-shadow: 0px 10px  20px grey;
     filter: grayscale(50%);
     transition-duration: 100ms;
 }
 #h-pict1{
-    top: 30px;
-    right: -30px;
+    top: 1.875rem;
+    right: -1.875rem;
     border-radius: 10px;
-    width: 400px;
+    width: 25rem;
     transform: rotate(10deg);
     opacity: 1;
 }
@@ -75,10 +75,10 @@ nav{
     transform: rotate(0deg) scale(1.1);
 }
 #h-pict2{
-    top: 600px;
-    left: 30px;
+    top: 37.5rem;
+    left: 1.875rem;
     border-radius: 10px;
-    width: 450px;
+    width: 28.125rem;
     transform: rotate(-5deg);
     opacity: 1;
 }
@@ -87,10 +87,10 @@ nav{
     transform: rotate(0deg) scale(1.1);
 }
 #h-pict3{
-    top: 700px;
-    right: -20px;
+    top: 43.75rem;
+    right: -1.25rem;
     border-radius: 10px;
-    width: 300px;
+    width: 18.75rem;
     transform: rotate(5deg);
     opacity: 1;
 }
@@ -99,10 +99,10 @@ nav{
     transform: rotate(0deg) scale(1.1);
 }
 #h-pict4{
-    top: 50px;
-    left: -30px;
+    top: 3.125rem;
+    left: -1.875rem;
     border-radius: 10px;
-    width: 450px; 
+    width: 28.125rem;
     transform: rotate(-3deg);
     opacity: 1;
 }
@@ -112,7 +112,7 @@ nav{
 }
 .section1{
     background-color: gainsboro;
-    height: 700px;
+    height: 43.75rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -122,28 +122,28 @@ nav{
 }
 #section1-text{
     text-align: center;
-    font-size: 80px;
-    width: 800px;
+    font-size: 5rem;
+    width: 50rem;
 }
 #kykny{
     color: gray;
-    font-size: 30px;
+    font-size: 1.875rem;
     display: inline;
 }
 .section2{
     display: flex;
     flex-direction: column;
     background-color: gainsboro;
-    height: 1700px;
+    height: 106.25rem;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     position: relative;
 }
 #section2-text{
-    font-size: 150px;
-    margin-top: 100px;
-    margin-left: 400px;
-    width: 800px;
+    font-size: 9.375rem;
+    margin-top: 6.25rem;
+    margin-left: 25rem;
+    width: 50rem;
     color: white;
     background: linear-gradient(90deg, #0762c3, #c6c2ee);
     -webkit-background-clip: text;
@@ -152,9 +152,9 @@ nav{
 }
 .chat{
     position: absolute;
-    top: 500px;
-    left: 450px;
-    margin: 10px 10px;
+    top: 31.25rem;
+    left: 28.125rem;
+    margin: 0.625rem 0.625rem;
     z-index: 1;
 }
 .chat-baloon{
@@ -165,7 +165,7 @@ nav{
 }
 .right-chat{
     position: absolute;
-    right: -300px;
+    right: -18.75rem;
     width: 100%;
     z-index: 1;
     background-color: #075e54;
@@ -173,10 +173,10 @@ nav{
     opacity: 0;
 }
 #last-chat{
-    margin-top: 70px;
+    margin-top: 4.375rem;
 }
 #dzaki{
-    width: 150px;
+    width: 9.375rem;
     border-radius: 5px;
 }
 .chat-name1{
@@ -195,21 +195,21 @@ nav{
     color: white;
 }
 .phone-section{
-    width: 800px;
+    width: 50rem;
     max-width: 100%;
     margin: 0 auto;
 }
 #samsung{
-    width: 800px;
+    width: 50rem;
 }
 .swipe-right{
     opacity: 1;
-    transform: translateX(40px);
+    transform: translateX(2.5rem);
     transition-duration: 300ms;
 }
 .swipe-left{
     opacity: 1;
-    transform: translateX(-80px);
+    transform: translateX(-5rem);
     transition-duration: 300ms;
 }
 .all{
@@ -219,36 +219,36 @@ nav{
     display: flex;
     flex-direction: column;
     background: linear-gradient(360deg,#4a96e4, #dcdcdc);
-    height: 2200px;
+    height: 137.5rem;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     position: relative;
     border-radius: 0px 0px 30px 30px;
 }
 #section3-text{
-    font-size: 100px;
+    font-size: 6.25rem;
     margin: 0 auto;
     text-align: center;
-    width: 700px;
+    width: 43.75rem;
     max-width: 100%;
     color: white;
     background: linear-gradient(90deg, #0762c3, #c6c2ee);
     -webkit-background-clip: text;
     color: transparent;
-    letter-spacing: 10px;
+    letter-spacing: 0.625rem;
 }
 .gang-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 1000px;
-    margin: 20px auto;
+    width: 62.5rem;
+    margin: 1.25rem auto;
 }
 .gang{
     position: relative;
-    margin: 10px 10px;
-    width: 450px;
-    height: 450px;
+    margin: 0.625rem 0.625rem;
+    width: 28.125rem;
+    height: 28.125rem;
     background-color: white;
     border-radius: 30px;
     transition-duration: 100ms;
@@ -258,12 +258,12 @@ nav{
     z-index: 2;
 }
 .people{
-    width: 450px;
+    width: 28.125rem;
 }
 .name{
     position: absolute; 
-    width: 450px;
-    height: 45px;
+    width: 28.125rem;
+    height: 2.813rem;
     border-radius: 0px 0px 30px 30px;
     top: 90%;
     text-align: center;
@@ -271,16 +271,16 @@ nav{
     color: white;
 }
 .footer{
-    height: 100px;
+    height: 6.25rem;
     background-color: gainsboro;
 }
 .footer-text{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
-    width: 400px;
+    width: 25rem;
     max-width: 100%;
-    padding: 30px;
+    padding: 1.875rem;
     margin: 0 auto;
 }
 
