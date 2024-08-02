@@ -1,5 +1,6 @@
 body{
     overflow-x: hidden;
+    background-color: gainsboro;
 }
 nav{
     background: hsl(0 0% 100% / 0.75);
@@ -71,7 +72,7 @@ nav{
 }
 #h-pict1:hover{
     filter: none;
-    transform: none; 
+    transform: rotate(0deg) scale(1.1);
 }
 #h-pict2{
     top: 600px;
@@ -83,7 +84,7 @@ nav{
 }
 #h-pict2:hover{
     filter: none;
-    transform: none; 
+    transform: rotate(0deg) scale(1.1);
 }
 #h-pict3{
     top: 700px;
@@ -95,7 +96,7 @@ nav{
 }
 #h-pict3:hover{
     filter: none;
-    transform: none; 
+    transform: rotate(0deg) scale(1.1);
 }
 #h-pict4{
     top: 50px;
@@ -107,7 +108,7 @@ nav{
 }
 #h-pict4:hover{
     filter: none;
-    transform: none; 
+    transform: rotate(0deg) scale(1.1); 
 }
 .section1{
     background-color: gainsboro;
@@ -157,14 +158,18 @@ nav{
 #samsung{
     width: 800px;
 }
+.all{
+    background-color: gainsboro;
+}
 .section3{
     display: flex;
     flex-direction: column;
     background: linear-gradient(360deg,#4a96e4, #dcdcdc);
-    height: 2500px;
+    height: 2200px;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     position: relative;
+    border-radius: 0px 0px 30px 30px;
 }
 #section3-text{
     font-size: 100px;
@@ -210,5 +215,18 @@ nav{
     text-align: center;
     background: hsla(0, 0%, 27%, 0.75);
     color: white;
+}
+.footer{
+    height: 100px;
+    background-color: gainsboro;
+}
+.footer-text{
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    width: 400px;
+    max-width: 100%;
+    padding: 30px;
+    margin: 0 auto;
 }
 
