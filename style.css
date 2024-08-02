@@ -153,7 +153,7 @@ nav{
 .chat{
     position: absolute;
     top: 500px;
-    left: 480px;
+    left: 450px;
     margin: 10px 10px;
     z-index: 1;
 }
@@ -165,7 +165,7 @@ nav{
 }
 .right-chat{
     position: absolute;
-    right: -210px;
+    right: -300px;
     width: 100%;
     z-index: 1;
     background-color: #075e54;
@@ -204,12 +204,12 @@ nav{
 }
 .swipe-right{
     opacity: 1;
-    transform: translateX(10px);
+    transform: translateX(40px);
     transition-duration: 300ms;
 }
 .swipe-left{
     opacity: 1;
-    transform: translateX(-10px);
+    transform: translateX(-80px);
     transition-duration: 300ms;
 }
 .all{
