@@ -33,10 +33,7 @@ const observer = new IntersectionObserver(entries =>{
     entries.forEach(entry =>{
         entry.target.classList.toggle("swipe-right", entry.isIntersecting)
     })
-}, {
-    // threshold: 1,
-    
-} )
+})
 
 baloon.forEach(each=>{
     observer.observe(each)
