@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hijau{
+            width: 100%;
+            background-color: green;
+            text-align: center;
+            scale: 0 1;
+            animation: ngocok linear;
+            animation-timeline: scroll();
+            transform-origin: left;
+            position: fixed;
+            top: 0;
+        }
+        @keyframes ngocok{
+            to { scale: 1 1; }
+        }
+        .card{
+            padding: 10px;
+            margin: 20px 10px;
+            border: solid 3px black;
+            border-radius: 5px;
+            width: 200px;
+            transition-duration: 150ms;
+            transform: translateX(100px);
+            opacity: 0;
+        }
+        .card.show{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="hijau">
+        GARIS HIJAU
+    </div> -->
+    <main>
+        <div class="card">This is the first card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This card</div>
+        <div class="card">This is the last card</div>
+    </main>
+    <script>
+        const AllCards = document.querySelectorAll('.card')
+        const observer = new IntersectionObserver(kontol => {
+            kontol.forEach(memek =>{
+                memek.target.classList.toggle("show", memek.isIntersecting)
+            })
+            
+
+        })
+        
+        AllCards.forEach(jembut=>{
+            observer.observe(jembut)
+        })
+        
+    </script>
+</body>
+</html>

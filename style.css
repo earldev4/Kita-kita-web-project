@@ -58,6 +58,8 @@ nav{
     position: absolute;
     width: 300px;
     box-shadow: 0px 10px  20px grey;
+    filter: grayscale(50%);
+    transition-duration: 100ms;
 }
 #h-pict1{
     top: 30px;
@@ -67,6 +69,10 @@ nav{
     transform: rotate(10deg);
     opacity: 1;
 }
+#h-pict1:hover{
+    filter: none;
+    transform: none; 
+}
 #h-pict2{
     top: 600px;
     left: 30px;
@@ -74,6 +80,10 @@ nav{
     width: 450px;
     transform: rotate(-5deg);
     opacity: 1;
+}
+#h-pict2:hover{
+    filter: none;
+    transform: none; 
 }
 #h-pict3{
     top: 700px;
@@ -83,6 +93,10 @@ nav{
     transform: rotate(5deg);
     opacity: 1;
 }
+#h-pict3:hover{
+    filter: none;
+    transform: none; 
+}
 #h-pict4{
     top: 50px;
     left: -30px;
@@ -90,6 +104,10 @@ nav{
     width: 450px; 
     transform: rotate(-3deg);
     opacity: 1;
+}
+#h-pict4:hover{
+    filter: none;
+    transform: none; 
 }
 .section1{
     background-color: gainsboro;
@@ -115,7 +133,7 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: gainsboro;
-    height: 2600px;
+    height: 1700px;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     position: relative;
@@ -131,48 +149,66 @@ nav{
     color: transparent;
     letter-spacing: 10px;
 }
-#phone-box{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    position: relative;
-    border-radius: 20px;
-    align-self: center;
-    justify-content: space-around;
+.phone-section{
     width: 800px;
-    height: 400px;
-    margin-top:1200px;
+    max-width: 100%;
+    margin: 0 auto;
 }
-#phones-container{
-    transform: translate(0px, -1050px) scale(2.8);
+#samsung{
+    width: 800px;
+}
+.section3{
     display: flex;
-    z-index: 2;
+    flex-direction: column;
+    background: linear-gradient(360deg,#4a96e4, #dcdcdc);
+    height: 2500px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    position: relative;
 }
-#phone{
-    width: 300px;
-    transition: all 0.3s ease;
-}
-#kita-icon2{
-    height: 3.125rem;
-    width: 3.125rem;
-    margin-bottom: 10px;
-}
-#phone-box2{
-    padding: 30px 20px;
-    width: 400px;
-}
-.phone-text{
-    font-size: 40px;
-}
-#kita-text{
+#section3-text{
+    font-size: 100px;
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    max-width: 100%;
+    color: white;
     background: linear-gradient(90deg, #0762c3, #c6c2ee);
     -webkit-background-clip: text;
     color: transparent;
+    letter-spacing: 10px;
 }
-#berwarna{
-    margin-top: -20px;
-    background: linear-gradient(90deg,#14c307, #0762c3, #e44a81);
-    -webkit-background-clip: text;
-    color: transparent;
+.gang-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 20px auto;
+}
+.gang{
+    position: relative;
+    margin: 10px 10px;
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border-radius: 30px;
+    transition-duration: 100ms;
+}
+.gang:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.people{
+    width: 450px;
+}
+.name{
+    position: absolute; 
+    width: 450px;
+    height: 45px;
+    border-radius: 0px 0px 30px 30px;
+    top: 90%;
+    text-align: center;
+    background: hsla(0, 0%, 27%, 0.75);
+    color: white;
 }
 
