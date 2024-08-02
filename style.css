@@ -150,6 +150,50 @@ nav{
     color: transparent;
     letter-spacing: 10px;
 }
+.chat{
+    position: absolute;
+    top: 500px;
+    left: 480px;
+    margin: 10px 10px;
+    z-index: 1;
+}
+.chat-baloon{
+    background-color: #075e54;
+    border-radius: 0px 5px 5px 5px;
+    opacity: 0;
+    transition-duration: 300ms;
+}
+.right-chat{
+    position: absolute;
+    right: -210px;
+    width: 100%;
+    z-index: 1;
+    background-color: #075e54;
+    border-radius: 0px 5px 5px 5px;
+    opacity: 0;
+}
+#last-chat{
+    margin-top: 70px;
+}
+#dzaki{
+    width: 150px;
+    border-radius: 5px;
+}
+.chat-name1{
+    color: orange;
+}
+.chat-name2{
+    color: violet;
+}
+.chat-name3{
+    color: green;
+}
+.chat-name4{
+    color: greenyellow;
+}
+.chat-color{
+    color: white;
+}
 .phone-section{
     width: 800px;
     max-width: 100%;
@@ -157,6 +201,16 @@ nav{
 }
 #samsung{
     width: 800px;
+}
+.swipe-right{
+    opacity: 1;
+    transform: translateX(10px);
+    transition-duration: 300ms;
+}
+.swipe-left{
+    opacity: 1;
+    transform: translateX(-10px);
+    transition-duration: 300ms;
 }
 .all{
     background-color: gainsboro;
