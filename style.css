@@ -47,7 +47,7 @@ nav{
 }
 #header{
     background-color: gainsboro;
-    height: 53.75rem;
+    height: 63.75rem;
     position: relative;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
@@ -121,7 +121,7 @@ nav{
 }
 .section1{
     background-color: gainsboro;
-    height: 53.75rem;
+    height: 57.75rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -140,6 +140,7 @@ nav{
     display: inline;
 }
 .section2{
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     background-color: gainsboro;
@@ -227,6 +228,7 @@ nav{
     background-color: gainsboro;
 }
 .section3{
+    padding-top: 10rem;
     display: flex;
     flex-direction: column;
     background: linear-gradient(360deg,#4a96e4, #dcdcdc);
@@ -313,22 +315,42 @@ nav{
     html{
         font-size: 8px;
     }
-    #h-pict1 {
-        right: -0.875rem; 
+    .section1{
+        height: 90.75rem;
     }
-    #h-pict2 {
-        left: 0.875rem; 
+}
+@media only screen and (max-width: 675px){
+    #h-pict3{
+        top: 43.75rem;
     }
-    #h-pict3 {
-        right: -0.875rem; 
-    }
-    #h-pict4 {
-        left: 0.875rem; 
+    #h-pict2{
+        top: 41.75rem;
     }
 }
 @media only screen and (max-width: 576px){
     html{
         font-size: 6px;
+    }
+    .section1{
+        height: 145.75rem;   
+    }
+    .section2{
+        padding-top: none;
+    }
+    .gang{
+        width: 38.125rem;
+        height: 38.125rem;
+    }
+    .name{
+        font-size: 2rem;
+        width: 38.125rem;
+        height: 3.813rem;
+    }
+    .people{
+        width: 38.125rem;
+    }
+    .section3{
+        height: 350.5rem;
     }
 }
 @media only screen and (max-width: 400px){
