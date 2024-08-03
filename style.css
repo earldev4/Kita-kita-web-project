@@ -284,26 +284,46 @@ nav{
     margin: 0 auto;
 }
 @media only screen and (max-width: 1400px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     html{
         font-size: 13px;
     }
 }
 @media only screen and (max-width: 1200px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     html{
         font-size: 12.5px;
     }
 }
 @media only screen and (max-width: 1200px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     html{
         font-size: 10.3px;
     }
 }
 @media only screen and (max-width: 915px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     .chat{
         left: 24.125rem;
     }
 }
 @media only screen and (max-width: 860px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     .chat{
         left: 21.125rem;
     }
@@ -312,16 +332,28 @@ nav{
     }
 }
 @media only screen and (max-width: 830px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     .chat{
         left: 19.125rem;
     }
 }
 @media only screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     html{
         font-size: 8px;
     }
 }
 @media only screen and (max-width: 576px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     .section3{
         height: 338rem;
     }
@@ -351,6 +383,10 @@ nav{
     }
 }
 @media only screen and (max-width: 500px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     html{
         font-size: 7px;
     }
@@ -364,6 +400,10 @@ nav{
     }
 }
 @media only screen and (max-width: 476px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     #h-pict3{
         top: 33.75rem;
     }
@@ -373,6 +413,10 @@ nav{
     }
 }
 @media only screen and (max-width: 435px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     #section2-text{
         margin-left: 4rem;
     }
@@ -381,6 +425,10 @@ nav{
     }
 }
 @media only screen and (max-width: 380px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     #section2-text{
         margin-left: 4rem;
     }
@@ -392,6 +440,10 @@ nav{
     }
 }
 @media only screen and (max-width: 373px){
+    body{
+        overflow-x: hidden;
+        background-color: gainsboro;
+    }
     #section2-text{
         font-size: 7rem;
     }
