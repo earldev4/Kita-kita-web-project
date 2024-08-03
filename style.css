@@ -352,10 +352,13 @@ nav{
 }
 @media only screen and (max-width: 508px){
     html{
-        font-size: 7px;
+        font-size: 8px;
+    }
+    .gang-container{
+        width: 52.5rem;
     }
 }
-@media only screen and (max-width: 455px){
+/* @media only screen and (max-width: 455px){
     html{
         font-size: 6.5px;
     }
@@ -364,10 +367,10 @@ nav{
     html{
         font-size: 6px;
     }
-}
+} */
 @media only screen and (max-width: 390px){
-    html{
-        font-size: 5.5px;
+    .gang-container{
+        width: 42.5rem;
     }
 }
 @media only screen and (max-width: 343px){
