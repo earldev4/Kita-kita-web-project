@@ -2,6 +2,9 @@ body{
     overflow-x: hidden;
     background-color: gainsboro;
 }
+*{
+    box-sizing: border-box;
+}
 nav{
     background: hsl(0 0% 100% / 0.75);
     position: sticky;
@@ -87,7 +90,7 @@ nav{
     transform: rotate(0deg) scale(1.1);
 }
 #h-pict3{
-    top: 43.75rem;
+    top: 33.75rem;
     right: -1.25rem;
     border-radius: 10px;
     width: 18.75rem;
@@ -285,12 +288,212 @@ nav{
 }
 @media only screen and (max-width: 1400px){
     html{
-        font-size: 13px;
+        font-size: 14px;
+    }
+    .chat{
+        left: 25.125rem;
+    }
+}
+@media only screen and (max-width: 1240px){
+    .chat{
+        left: 23.125rem;
     }
 }
 @media only screen and (max-width: 1200px){
     html{
         font-size: 12.5px;
+    }
+    .chat{
+        left: 27.125rem;
+    }
+    #header{
+        height: 50.75rem;
+    }
+}
+@media only screen and (max-width: 1160px){
+    .chat{
+        left: 26.125rem;
+    }
+}
+@media only screen and (max-width: 1120px){
+    .chat{
+        left: 24.125rem;
+    }
+}
+@media only screen and (max-width: 1060px){
+    .chat{
+        left: 22.125rem;
+    }
+    #h-pict2{
+        top: 33.5rem; 
+    }
+    #section2-text{
+    margin-left: 18rem;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .chat{
+        left: 20.125rem;
+    }
+}
+@media only screen and (max-width: 992px){
+    html{
+        font-size: 11.5px;
+    }
+    .chat{
+        left: 23.125rem;
+    }
+    #h-pict2{
+        top: 33.5rem; 
+    }
+    #header{
+        height: 57.75rem;
+    }
+    #h-pict2{
+        top: 35.5rem; 
+    }
+} 
+@media only screen and (max-width: 950px){
+    .chat{
+        left: 21.125rem;
+    }
+    #header{
+        height: 55.75rem;
+    }
+}
+@media only screen and (max-width: 890px){
+    html{
+        font-size: 11.5px;
+    }
+    .chat{
+        left: 18.125rem;
+    }
+}
+@media only screen and (max-width: 850px){
+    .chat{
+        left: 16.125rem;
+    }
+}
+@media only screen and (max-width: 810px){
+    .chat{
+        left: 14.125rem;
+    }
+    #section2-text{
+        margin-left: 12rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 9px;
+    }
+    .chat{
+        left: 22.125rem;
+    }
+    #header{
+        height: 73.75rem;
+    }
+    #h-pict2{
+        top: 45.5rem; 
+    }
+    #h-pict3{
+        top: 45.5rem; 
+    }
+}
+@media only screen and (max-width: 745px){
+    .chat{
+        left: 20.125rem;
+    }
+}
+@media only screen and (max-width: 685px){
+    .chat{
+        left: 17.125rem;
+    }
+    .section1{
+        height: 63.75rem;
+    }
+}
+@media only screen and (max-width: 645px){
+    .chat{
+        left: 15.125rem;
+    }
+}
+@media only screen and (max-width: 605px){
+    .chat{
+        left: 12.125rem;
+    }
+    .gang{
+        width: 38.125rem;
+        height: 38.125rem;
+    }
+    .name{ 
+        width: 38.125rem;
+        height: 3.813rem;
+    }
+    .people{
+        width: 38.125rem;
+    }
+    .section3{
+        height: 337.5rem;
+    }
+}
+@media only screen and (max-width: 576px){
+    html{
+        font-size: 7px;
+    }
+    #section2-text{
+        margin-left: 23rem;
+    }
+    .chat{
+        top: 43rem;
+        left: 19.125rem;
+    }
+    #header{
+        height: 96.75rem;
+    }
+    #h-pict2{
+        top: 60.5rem; 
+    }
+    #h-pict3{
+        top: 60.5rem; 
+    }
+}
+@media only screen and (max-width: 535px){
+    .chat{
+        left: 16.5rem;
+    }
+    #section2-text{
+        margin-left: 20rem;
+    }
+}
+@media only screen and (max-width: 499px){
+    .chat{
+        left: 13.5rem;
+    }
+    #section2-text{
+        margin-left: 18rem;
+    }
+}
+@media only screen and (max-width: 465px){
+    .chat{
+        left: 11.5rem;
+    }
+}
+@media only screen and (max-width: 433px){
+    .chat{
+        left: 9.5rem;
+    }
+    #section2-text{
+        margin-left: 10rem;
+    }
+}
+@media only screen and (max-width: 405px){
+    .chat{
+        left: 7.5rem;
+    }
+}
+@media only screen and (max-width: 375px){
+    .chat{
+        left: 5.5rem;
     }
 }
 
