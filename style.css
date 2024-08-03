@@ -52,6 +52,7 @@ nav{
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     z-index: 2;
+    overflow: hidden;
 }
 #header-text{
     font-size: 9.375rem;
@@ -308,6 +309,18 @@ nav{
 @media only screen and (max-width: 768px){
     html{
         font-size: 8px;
+    }
+    #h-pict1 {
+        right: -0.875rem; 
+    }
+    #h-pict2 {
+        left: 0.875rem; 
+    }
+    #h-pict3 {
+        right: -0.875rem; 
+    }
+    #h-pict4 {
+        left: 0.875rem; 
     }
 }
 @media only screen and (max-width: 576px){

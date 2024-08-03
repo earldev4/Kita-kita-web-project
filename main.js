@@ -11,6 +11,7 @@ window.addEventListener('scroll', () =>{
     let max_scrollvalue = 500;
     let opacity = Math.max(1 - value / max_scrollvalue, 0);
 
+    console.log(value)
     pict1.style.top = value * 0.5 + 'px';
     pict1.style.right = value * -0.5 + 'px';
     pict1.style.opacity = opacity; 
@@ -24,7 +25,6 @@ window.addEventListener('scroll', () =>{
     pict4.style.top = value * -0.5 + 'px';
     pict4.style.left = value * -0.5 + 'px';
     pict4.style.opacity = opacity; 
-   
     
 });
 
