@@ -47,7 +47,7 @@ nav{
 }
 #header{
     background-color: gainsboro;
-    height: 43.75rem;
+    height: 53.75rem;
     position: relative;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
@@ -117,7 +117,7 @@ nav{
 }
 .section1{
     background-color: gainsboro;
-    height: 43.75rem;
+    height: 53.75rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -145,15 +145,16 @@ nav{
     position: relative;
 }
 #section2-text{
-    font-size: 9.375rem;
-    margin-top: 6.25rem;
-    margin-left: 25rem;
-    width: 50rem;
+    font-size: 8.25rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 43.75rem;
+    max-width: 100%;
     color: white;
     background: linear-gradient(90deg, #0762c3, #c6c2ee);
     -webkit-background-clip: text;
     color: transparent;
-    letter-spacing: 10px;
+    letter-spacing: 0.625rem;
 }
 .chat{
     position: absolute;
@@ -288,6 +289,36 @@ nav{
     max-width: 100%;
     padding: 1.875rem;
     margin: 0 auto;
+}
+@media only screen and (max-width: 1480px){
+    html{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    html{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 992px){
+    html{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 768px){
+    html{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 576px){
+    html{
+        font-size: 6px;
+    }
+}
+@media only screen and (max-width: 400px){
+    html{
+        font-size: 5px;
+    }
 }
 
 
