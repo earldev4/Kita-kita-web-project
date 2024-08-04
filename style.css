@@ -46,6 +46,7 @@ nav{
     font-size: 1.25rem;
 }
 #header{
+    display: flex;
     background-color: gainsboro;
     height: 63.75rem;
     position: relative;
@@ -144,7 +145,8 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: gainsboro;
-    height: 106.25rem;
+    max-width: 100%;
+    height: 100%;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     position: relative;
@@ -212,7 +214,7 @@ nav{
     position: relative;
 }
 #samsung{
-    width: 50rem;
+    width: 100%;
 }
 .swipe-right{
     opacity: 1;
@@ -232,7 +234,7 @@ nav{
     display: flex;
     flex-direction: column;
     background: linear-gradient(360deg,#4a96e4, #dcdcdc);
-    height: 137.5rem;
+    height: 100%;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     position: relative;
@@ -255,6 +257,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
     width: 62.5rem;
+    max-width: 100%;
     margin: 1.25rem auto;
 }
 .gang{
@@ -296,44 +299,17 @@ nav{
     padding: 1.875rem;
     margin: 0 auto;
 }
-@media only screen and (max-width: 1480px){
-    html{
-        font-size: 14px;
-    }
-}
 @media only screen and (max-width: 1200px){
     html{
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 @media only screen and (max-width: 992px){
     html{
-        font-size: 10px;
+        font-size: 14px;
     }
 }
-@media only screen and (max-width: 768px){
-    html{
-        font-size: 8px;
-    }
-    .section1{
-        height: 90.75rem;
-    }
-}
-@media only screen and (max-width: 675px){
-    #h-pict3{
-        top: 43.75rem;
-    }
-    #h-pict2{
-        top: 41.75rem;
-    }
-}
-@media only screen and (max-width: 576px){
-    .section1{
-        height: 145.75rem;   
-    }
-    .section2{
-        padding-top: none;
-    }
+@media only screen and (max-width: 897px){
     .gang{
         width: 38.125rem;
         height: 38.125rem;
@@ -346,38 +322,48 @@ nav{
     .people{
         width: 38.125rem;
     }
-    .section3{
-        height: 350.5rem;
+}
+@media only screen and (max-width: 705px){
+    html{
+        font-size: 12px;
     }
 }
-@media only screen and (max-width: 508px){
+@media only screen and (max-width: 560px){
+    .section1{
+        align-items: end;
+    }
+    html{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 490px){
+    html{
+        font-size: 9px;
+    }
+    #section1-text{
+        font-size: 4rem;
+    }
+    
+}
+@media only screen and (max-width: 450px){
     html{
         font-size: 8px;
     }
-    .gang-container{
-        width: 52.5rem;
+    .phone-section{
+        width: 100%;
     }
 }
-/* @media only screen and (max-width: 455px){
+@media only screen and (max-width: 390px){
+    html{
+        font-size: 7.5px;
+    }
+}
+@media only screen and (max-width: 350px){
     html{
         font-size: 6.5px;
     }
 }
-@media only screen and (max-width: 417px){
-    html{
-        font-size: 6px;
-    }
-} */
-@media only screen and (max-width: 390px){
-    .gang-container{
-        width: 42.5rem;
-    }
-}
-@media only screen and (max-width: 343px){
-    html{
-        font-size: 5px;
-    }
-}
+
 
 
 
