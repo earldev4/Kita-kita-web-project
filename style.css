@@ -27,6 +27,21 @@ nav{
     margin: 0 auto;
     height: 5rem;
 }
+.theme-switch{
+    border: none;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    display: flex;
+    margin: 35% auto;
+}
+.theme-switch img{
+    height: 50px;
+    width: 50px;
+}
+.darkmode{
+    
+}
 #kita-icon{
     height: 3.125rem;
     width: 3.125rem;
