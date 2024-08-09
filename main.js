@@ -65,7 +65,7 @@ const disableDarkmode = ()=>{
 }
 
 if (darkmode == "active") enableDarkmode()
-
+    
 switchbutton.addEventListener('click', ()=>{
     darkmode = localStorage.getItem('darkmode')
     if (darkmode != "active"){

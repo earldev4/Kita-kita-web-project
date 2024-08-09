@@ -7,6 +7,7 @@ body{
 *{
     box-sizing: border-box;
     color: var(--general-font);
+    transition-duration: 500ms;
 }
 :root{
     --navigation-color: #FFFFFFBF;
