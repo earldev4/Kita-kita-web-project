@@ -1,3 +1,5 @@
+let darkmode = localStorage.getItem('darkmode')
+const switchbutton = document.querySelector('.theme-switch')
 let pict1 = document.getElementById('h-pict1')
 let pict2 = document.getElementById('h-pict2')
 let pict3 = document.getElementById('h-pict3')
@@ -50,5 +52,26 @@ const rightobserver = new IntersectionObserver(entries =>{
 
 Array.from(right_baloon).forEach(each =>{
     rightobserver.observe(each)
+})
+
+const enableDarkmode = ()=>{
+    document.body.classList.add('darkmode')
+    localStorage.setItem('darkmode','active');
+}
+
+const disableDarkmode = ()=>{
+    document.body.classList.remove('darkmode')
+    localStorage.setItem('darkmode', null);
+}
+
+if (darkmode == "active") enableDarkmode()
+
+switchbutton.addEventListener('click', ()=>{
+    darkmode = localStorage.getItem('darkmode')
+    if (darkmode != "active"){
+        enableDarkmode()
+    }else{
+        disableDarkmode()
+    }
 })
 
