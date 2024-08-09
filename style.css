@@ -21,26 +21,37 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 50rem;
+    width: 55rem;
     max-width: 100%;
     padding: 0 1rem;
     margin: 0 auto;
     height: 5rem;
 }
+.followandtheme{
+    display: flex;
+}
 .theme-switch{
-    border: none;
+    margin-right: 5px;
     height: 50px;
     width: 50px;
     padding: 0;
+    border-radius: 50%;
+    border: none;
     display: flex;
-    margin: 35% auto;
+    justify-content: center;
+    align-items: center;
 }
-.theme-switch img{
-    height: 50px;
-    width: 50px;
+.theme-switch svg{
+    fill: #0762c3;
 }
-.darkmode{
-    
+.theme-switch svg:last-child{
+    display: none;
+}
+.darkmode .theme-switch svg:first-child{
+    display: none;
+}
+.darkmode .theme-switch svg:last-child{
+    display: block;
 }
 #kita-icon{
     height: 3.125rem;
