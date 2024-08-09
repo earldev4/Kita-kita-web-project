@@ -6,11 +6,21 @@ body{
 }
 *{
     box-sizing: border-box;
+    color: var(--general-font);
 }
 :root{
     --navigation-color: #FFFFFFBF;
     --navigation_border: #808080;
     --main-color: #dcdcdc;
+    --button-color: linear-gradient(90deg, rgb(66, 135, 245), rgb(46, 87, 232));
+    --button-font-color: white;
+    --box-shadow-color: grey;
+    --title-color: linear-gradient(90deg, #0762c3, #c6c2ee);
+    --chat-color: #075e54;
+    --section-gang-color: linear-gradient(360deg,#4a96e4, #dcdcdc);
+    --gang-container: white;
+    --name-container: hsla(0, 0%, 27%, 0.75);
+    --general-font: black;
 }
 nav{
     background-color: var(--navigation-color);
@@ -47,7 +57,7 @@ nav{
     align-items: center;
 }
 .theme-switch svg{
-    fill: #0762c3;
+    fill: var(--button-color)
 }
 .theme-switch svg:last-child{
     display: none;
@@ -70,15 +80,15 @@ nav{
 #follow-button{
     padding: 0.5rem 1.25rem;
     text-align: center;
-    color: white;
+    color: var(--button-font-color);
     text-decoration: none;
-    background: linear-gradient(90deg, rgb(66, 135, 245), rgb(46, 87, 232));
+    background: var(--button-color);
     border-radius: 20px;
     font-size: 1.25rem;
 }
 #header{
     display: flex;
-    background-color: gainsboro;
+    background-color: var(--main-color);
     height: 63.75rem;
     position: relative;
     font-family: "Oswald", sans-serif;
@@ -99,7 +109,7 @@ nav{
 .header-pict{
     position: absolute;
     width: 18.75rem;
-    box-shadow: 0px 10px  20px grey;
+    box-shadow: 0px 10px  20px var(--box-shadow-color);
     filter: grayscale(50%);
     transition-duration: 100ms;
 }
@@ -152,7 +162,7 @@ nav{
     transform: rotate(0deg) scale(1.1); 
 }
 .section1{
-    background-color: gainsboro;
+    background-color: var(--main-color);
     height: 57.75rem;
     display: flex;
     flex-direction: row;
@@ -167,7 +177,7 @@ nav{
     width: 50rem;
 }
 #kykny{
-    color: gray;
+    color: var(--box-shadow-color);
     font-size: 1.875rem;
     display: inline;
 }
@@ -175,7 +185,7 @@ nav{
     padding-top: 5rem;
     display: flex;
     flex-direction: column;
-    background-color: gainsboro;
+    background-color: var(--main-color);
     max-width: 100%;
     height: 100%;
     font-family: "Oswald", sans-serif;
@@ -188,8 +198,8 @@ nav{
     text-align: center;
     width: 43.75rem;
     max-width: 100%;
-    color: white;
-    background: linear-gradient(90deg, #0762c3, #c6c2ee);
+    color: var(--button-font-color);
+    background: var(--title-color);
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: 0.625rem;
@@ -202,7 +212,7 @@ nav{
     z-index: 1;
 }
 .chat-baloon{
-    background-color: #075e54;
+    background-color: var(--chat-color);
     border-radius: 0px 5px 5px 5px;
     opacity: 0;
     transition-duration: 300ms;
@@ -212,7 +222,7 @@ nav{
     right: -18.75rem;
     width: 100%;
     z-index: 1;
-    background-color: #075e54;
+    background-color: var(--chat-color);
     border-radius: 0px 5px 5px 5px;
     opacity: 0;
 }
@@ -258,13 +268,13 @@ nav{
     transition-duration: 300ms;
 }
 .all{
-    background-color: gainsboro;
+    background-color: var(--main-color);
 }
 .section3{
     padding-top: 10rem;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(360deg,#4a96e4, #dcdcdc);
+    background: var(--section-gang-color);
     height: 100%;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
@@ -277,8 +287,7 @@ nav{
     text-align: center;
     width: 43.75rem;
     max-width: 100%;
-    color: white;
-    background: linear-gradient(90deg, #0762c3, #c6c2ee);
+    background: var(--title-color);
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: 0.625rem;
@@ -296,7 +305,7 @@ nav{
     margin: 0.625rem 0.625rem;
     width: 28.125rem;
     height: 28.125rem;
-    background-color: white;
+    background-color: var(--gang-container);
     border-radius: 30px;
     transition-duration: 100ms;
 }
@@ -314,12 +323,12 @@ nav{
     border-radius: 0px 0px 30px 30px;
     top: 90%;
     text-align: center;
-    background: hsla(0, 0%, 27%, 0.75);
-    color: white;
+    background: var(--name-container);
+    color: var(--button-font-color);
 }
 .footer{
     height: 6.25rem;
-    background-color: gainsboro;
+    background-color: var(--main-color);
 }
 .footer-text{
     font-size: 1.25rem;
