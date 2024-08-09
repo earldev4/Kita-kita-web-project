@@ -22,6 +22,19 @@ body{
     --name-container: hsla(0, 0%, 27%, 0.75);
     --general-font: black;
 }
+.darkmode{
+    --navigation-color: #190139bf;
+    --navigation_border: #25014f;
+    --main-color: #1b0c45;
+    --button-color: linear-gradient(90deg, #0013b4, #0f9466);
+    --button-font-color: #45d6e7;
+    --box-shadow-color: #35b1bf;
+    --title-color: linear-gradient(90deg, #0013b4, #0f9466);
+    --section-gang-color: linear-gradient(360deg,#4728b6, #1b0c45);
+    --gang-container: #45d6e7;
+    --name-container: rgba(9, 106, 116, 0.75);
+    --general-font: white;
+}
 nav{
     background-color: var(--navigation-color);
     position: sticky;
