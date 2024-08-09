@@ -1,18 +1,23 @@
 body{
     overflow-x: hidden;
-    background-color: gainsboro;
+    background-color: var(--main-color);
     font-family: "Oswald", sans-serif;
     font-weight: 400;
 }
 *{
     box-sizing: border-box;
 }
+:root{
+    --navigation-color: #FFFFFFBF;
+    --navigation_border: #808080;
+    --main-color: #dcdcdc;
+}
 nav{
-    background: hsl(0 0% 100% / 0.75);
+    background-color: var(--navigation-color);
     position: sticky;
     top: 0;
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid hsl(0 0% 50%);
+    border-bottom: 1px solid var(--navigation_border);
     height: 5.125rem;
     z-index: 3;
 }
