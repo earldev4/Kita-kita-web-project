@@ -340,6 +340,21 @@ nav{
     background: var(--name-container);
     color: var(--button-font-color);
 }
+.galery{
+    background-color: var(--main-color);
+    padding-top: 50px;
+}
+.gallery-title{
+    font-size: 6.25rem;
+    margin: 30px auto;
+    text-align: center;
+    width: 43.75rem;
+    max-width: 100%;
+    background: var(--title-color);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 0.625rem;
+}
 .footer{
     height: 6.25rem;
     background-color: var(--main-color);
